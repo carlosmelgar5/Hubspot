@@ -5,9 +5,8 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils.dataframe import dataframe_to_rows
 
 
-# ============================================================
 # Utility: Data Quality Check
-# ============================================================
+
 def data_quality_check(df, name="Dataset"):
     print(f"\n{'='*60}")
     print(f"  Data Quality Report: {name}")
@@ -40,9 +39,8 @@ def data_quality_check(df, name="Dataset"):
     print(f"\n{'='*60}\n")
 
 
-# ============================================================
 # Utility: Save DataFrame as formatted Excel
-# ============================================================
+
 def save_formatted_xlsx(df, filepath, sheet_name="Sheet1"):
     wb = Workbook()
     ws = wb.active
@@ -102,10 +100,7 @@ def save_formatted_xlsx(df, filepath, sheet_name="Sheet1"):
     wb.save(filepath)
     print(f"Saved: {filepath}")
 
-
-# ============================================================
 # 1. Clean NPS Data
-# ============================================================
 def clean_nps(path="data/raw/nps_data.xlsx"):
     df = pd.read_excel(path)
 
@@ -146,10 +141,7 @@ def clean_nps(path="data/raw/nps_data.xlsx"):
     print(f"NPS after cleanup: {df.shape}")
     return df
 
-
-# ============================================================
 # 2. Clean CSAT Data
-# ============================================================
 def clean_csat(path="data/raw/csat.xlsx"):
     df = pd.read_excel(path)
 
@@ -180,10 +172,7 @@ def clean_csat(path="data/raw/csat.xlsx"):
     print(f"CSAT after cleanup: {df.shape}")
     return df
 
-
-# ============================================================
 # 3. Clean Support Tickets
-# ============================================================
 def clean_support_tickets(path="data/raw/support_tickets.xlsx"):
     # Only read the 14 real columns — ignore 317 ghost columns
     df = pd.read_excel(path, usecols=range(14))
@@ -219,11 +208,7 @@ def clean_support_tickets(path="data/raw/support_tickets.xlsx"):
 
     print(f"Support tickets after cleanup: {df.shape}")
     return df
-
-
-# ============================================================
 # Main
-# ============================================================
 if __name__ == "__main__":
 
     # ---- Step 1: Raw data quality check ----
@@ -253,9 +238,9 @@ if __name__ == "__main__":
     processed_dir = Path("data/processed")
     processed_dir.mkdir(parents=True, exist_ok=True)
 
- #   save_formatted_xlsx(nps, processed_dir / "nps_clean.xlsx", "NPS Data")
-  #  save_formatted_xlsx(csat, processed_dir / "csat_clean.xlsx", "CSAT Data")
-   # save_formatted_xlsx(tickets, processed_dir / "support_tickets_clean.xlsx", "Support Tickets")
+    save_formatted_xlsx(nps, processed_dir / "nps_clean.xlsx", "NPS Data")
+    save_formatted_xlsx(csat, processed_dir / "csat_clean.xlsx", "CSAT Data")
+    save_formatted_xlsx(tickets, processed_dir / "support_tickets_clean.xlsx", "Support Tickets")
 
     # ---- Step 4: Post-cleaning quality check ----
     print("\n" + "=" * 60)
@@ -268,10 +253,3 @@ if __name__ == "__main__":
 
     print("Done! Cleaned files saved to data/processed/") 
 
-
-print("Unique portal_ids in CSAT:", csat["wootricscsat_responses_portal_id"].nunique())
-print("Unique portal_ids in Tickets:", tickets["portal_id"].nunique())
-
-# Check how many match
-common = set(csat["wootricscsat_responses_portal_id"].dropna()) & set(tickets["portal_id"].dropna())
-print(f"Matching portal_ids: {len(common)}")
