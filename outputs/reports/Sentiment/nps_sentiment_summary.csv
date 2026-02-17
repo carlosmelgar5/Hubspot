@@ -1,0 +1,7 @@
+Taxonomy Type,Positive,Negative,Neutral,Total Scored,Positive %,Negative %,Net Sentiment,,Taxonomy Type,Net Sentiment
+General,"1,268",286,609,"2,163",58.6%,13.2%,45.4,,General,45.4
+Usability,"2,716","1,020","1,026","4,762",57.0%,21.4%,35.6,,Usability,35.6
+Functionality,686,312,413,"1,411",48.6%,22.1%,26.5,,Functionality,26.5
+Expectation Gap,144,116,153,413,34.9%,28.1%,6.8,,Expectation Gap,6.8
+Performance,105,122,302,529,19.8%,23.1%,-3.3,,Performance,-3.3
+Reliability,81,208,183,472,17.2%,44.1%,-26.9,,Reliability,-26.9
