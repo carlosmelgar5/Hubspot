@@ -1,0 +1,69 @@
+Survey Name,positive,negative,neutral,total,positive_pct,negative_pct,net_sentiment
+Create Custom Objects,2,0,1,3,66.7,0.0,66.7
+Academy CSAT,1943,238,830,3011,64.5,7.9,56.6
+Trial,36,8,9,53,67.9,15.1,52.8
+Workflows,1344,305,481,2130,63.1,14.3,48.8
+Payment Links Index,39,9,18,66,59.1,13.6,45.5
+Helpdesk Ticket Defaults,10,3,3,16,62.5,18.8,43.7
+Social,1409,414,622,2445,57.6,16.9,40.7
+Sales Execution - Deal Pipeline,203,49,129,381,53.3,12.9,40.4
+Quotes,168,51,73,292,57.5,17.5,40.0
+Deal Pipeline (Deal Board),320,91,180,591,54.1,15.4,38.7
+Data Quality,120,40,49,209,57.4,19.1,38.3
+Sales Outreach (Sequences),164,52,89,305,53.8,17.0,36.8
+Import Export,670,240,314,1224,54.7,19.6,35.1
+CRM Settings,539,196,245,980,55.0,20.0,35.0
+CRM Records,730,250,409,1389,52.6,18.0,34.6
+Payments Index,74,27,36,137,54.0,19.7,34.3
+Sales Efficiency (Tasks),116,41,66,223,52.0,18.4,33.6
+Sales Prospecting - Task,488,174,288,950,51.4,18.3,33.1
+Chat,49,16,36,101,48.5,15.8,32.7
+CRM Index,485,165,334,984,49.3,16.8,32.5
+Marketing Email,866,361,441,1668,51.9,21.6,30.3
+Sales Execution - Deal Index,361,144,241,746,48.4,19.3,29.1
+Campaigns,723,316,375,1414,51.1,22.3,28.8
+Chatflows - Live Chat Bot Creation,29,14,11,54,53.7,25.9,27.8
+Admin Governance,351,151,221,723,48.5,20.9,27.6
+Report Library,72,31,47,150,48.0,20.7,27.3
+Deal Pipeline (Forecasting),431,197,308,936,46.0,21.0,25.0
+Content Tools,1670,860,811,3341,50.0,25.7,24.3
+Admin Setup,414,206,239,859,48.2,24.0,24.2
+Report Builder (Original),109,56,55,220,49.5,25.5,24.0
+Forms,598,288,417,1303,45.9,22.1,23.8
+Reporting (Report Dashboard View),439,211,330,980,44.8,21.5,23.3
+Workflows Visit,1001,512,614,2127,47.1,24.1,23.0
+Invoices Index,343,184,176,703,48.8,26.2,22.6
+File Manager View,506,277,234,1017,49.8,27.2,22.6
+UI Extension Cards,18,9,13,40,45.0,22.5,22.5
+Reporting (Sales Analytics),420,212,347,979,42.9,21.7,21.2
+Conversations Inbox,1649,921,879,3449,47.8,26.7,21.1
+Products Index,458,265,265,988,46.4,26.8,19.6
+Subscriptions Index,55,33,24,112,49.1,29.5,19.6
+CRM Lists,589,314,546,1449,40.6,21.7,18.9
+Sales Execution - Forecast,152,87,107,346,43.9,25.1,18.8
+Ads,527,308,418,1253,42.1,24.6,17.5
+Data Sync,756,456,567,1779,42.5,25.6,16.9
+Prospecting Workspace,332,210,254,796,41.7,26.4,15.3
+Sales Prospecting - Sequence,238,156,182,576,41.3,27.1,14.2
+CTAs,69,46,51,166,41.6,27.7,13.9
+Knowledgebase Article Insights,124,88,56,268,46.3,32.8,13.5
+Reporting (Custom Journey Analytics),76,53,48,177,42.9,29.9,13.0
+Other Survey,1230,845,943,3018,40.8,28.0,12.8
+Helpdesk Ticket Closed,1357,974,729,3060,44.3,31.8,12.5
+IAH Experience,68,47,61,176,38.6,26.7,11.9
+Reporting (Multi-touch Attribution),54,39,33,126,42.9,31.0,11.9
+Brand Settings,325,224,301,850,38.2,26.4,11.8
+App Marketplace,155,104,185,444,34.9,23.4,11.5
+Report Builder (Advanced),1643,1225,1086,3954,41.6,31.0,10.6
+Sales Prospecting - Meeting,128,93,124,345,37.1,27.0,10.1
+Report Lists,686,520,518,1724,39.8,30.2,9.6
+Design Manager,1415,1151,918,3484,40.6,33.0,7.6
+Datasets,41,34,39,114,36.0,29.8,6.2
+Reporting (Single Object Builder),275,242,187,704,39.1,34.4,4.7
+SEO Recs,54,47,51,152,35.5,30.9,4.6
+Connected Apps,178,164,234,576,30.9,28.5,2.4
+Chatflows - Messenger Bot Creation,0,0,1,1,0.0,0.0,0.0
+Developer View,31,38,25,94,33.0,40.4,-7.4
+Account & Billing,1349,1681,1432,4462,30.2,37.7,-7.5
+Developer User,8,11,9,28,28.6,39.3,-10.7
+View Custom Objects,16,26,14,56,28.6,46.4,-17.8

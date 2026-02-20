@@ -1,0 +1,7 @@
+Taxonomy Type,positive,negative,neutral,total,positive_pct,negative_pct,net_sentiment
+Functionality,14588,4326,7053,25967,56.2,16.7,39.5
+General,5073,1432,3243,9748,52.0,14.7,37.3
+Usability,9528,7967,5168,22663,42.0,35.2,6.8
+Performance,453,471,1101,2025,22.4,23.3,-0.9
+Expectation Gap,833,926,1003,2762,30.2,33.5,-3.3
+Reliability,823,1676,1811,4310,19.1,38.9,-19.8
